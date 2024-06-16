@@ -1,6 +1,6 @@
 import React from "react";
 import CardImage from "../CardBox/imgCard";
-import Jewellery from "../../assets/jewellery1452.png";
+import Jewellery from "https://shaileshkale-portfolio.netlify.app/image/jewellery1452.PNG";
 import pomototime from "../../assets/pomoto-time.webp";
 import githubApi from "../../assets/github-Api.webp";
 import Profile from "../../assets/ShaileshportfolioImage.png";
