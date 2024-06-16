@@ -34,6 +34,17 @@ const Hero = () => {
               JavaScript based technology to develop the website in more
               efficiently.
             </p>
+            <div className="mt-4">
+              <a
+                href="/public/shailesh Kale (13-06-2024).pdf"
+                download="shailesh kale Resume.pdf">
+                <button
+                  className="p-2 rounded-lg cursor-pointer"
+                  style={{ border: "2px solid #22c3e6" }}>
+                  Download CV
+                </button>
+              </a>
+            </div>
           </div>
         </div>
         <div className="flex flex-col gap-2">
