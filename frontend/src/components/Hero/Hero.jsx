@@ -3,7 +3,7 @@ import profileimg from "../../assets/Avatar-shailesh.jpg";
 import github from "../../assets/icons8-github.svg";
 import linkedin from "../../assets/icons8-linkedin.svg";
 import twitter from "../../assets/icons8-twitter.svg";
-import resume from "../../../public/ShaileshResume.pdf";
+import resume from "../../assets/ShaileshResume.pdf";
 import mail from "../../assets/mail.png";
 
 const Hero = () => {
