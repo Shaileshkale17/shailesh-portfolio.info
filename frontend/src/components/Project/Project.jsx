@@ -46,7 +46,7 @@ const Project = () => {
           text=" Shailesh portfolio showcases a dynamic blend of React js and tailwind Css , with seamless deployment on Vercel, powered by a robust backend using Google App and data storage in Google Excel Sheets."
           imgproject={Profile}
           TECHNICAL=" Frontend :- React js and tailwindcss, BackEnd :- Google App , DataBase Google Excel Sheet "
-          projectLink="https://shailesh-portfolio-info-1p2c.vercel.app/"
+          projectLink="/"
         />
       </div>
     </div>
