@@ -3,7 +3,7 @@ import profileimg from "../../assets/Avatar-shailesh.jpg";
 import github from "../../assets/icons8-github.svg";
 import linkedin from "../../assets/icons8-linkedin.svg";
 import twitter from "../../assets/icons8-twitter.svg";
-
+import resume from "../../../public/ShaileshResume.pdf";
 import mail from "../../assets/mail.png";
 
 const Hero = () => {
@@ -35,9 +35,7 @@ const Hero = () => {
               efficiently.
             </p>
             <div className="mt-4">
-              <a
-                href="/public/shailesh Kale (13-06-2024).pdf"
-                download="shailesh kale Resume.pdf">
+              <a href={resume} download="shailesh kale Resume.pdf">
                 <button
                   className="p-2 rounded-lg cursor-pointer"
                   style={{ border: "2px solid #22c3e6" }}>

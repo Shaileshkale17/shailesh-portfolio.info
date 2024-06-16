@@ -34,7 +34,6 @@ const Project = () => {
           TECHNICAL=" React , axios "
           projectLink="https://githubprofilesite.netlify.app/"
         />
-
         <CardImage
           title="Shailesh Portfolio"
           text=" Shailesh portfolio showcases a dynamic blend of React js and tailwind Css , with seamless deployment on Vercel, powered by a robust backend using Google App and data storage in Google Excel Sheets."
