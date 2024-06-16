@@ -12,11 +12,11 @@ import cancel from "../../assets/cancel.svg";
 const Navber = () => {
   const [open, setOpen] = useState(false);
   const DataLink = [
-    { name: "About", link: "#about", img: Home },
-    { name: "Features", link: "#features", img: Skills },
-    { name: "Customers", link: "#customers", img: Project },
-    { name: "Updates", link: "#updates", img: Blog },
-    { name: "Help", link: "#help", img: Contact },
+    { name: "Home", link: "/", img: Home },
+    { name: "Skills", link: "#Skills", img: Skills },
+    { name: "Project", link: "#Project", img: Project },
+    { name: "Blog", link: "#Blog", img: Blog },
+    { name: "Contact", link: "#Contact", img: Contact },
   ];
 
   return (

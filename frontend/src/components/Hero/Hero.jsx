@@ -10,10 +10,10 @@ const Hero = () => {
   return (
     <div className="text-white flex flex-col mt-3 bg-black ">
       <div className="flex items-center justify-center text-2xl ">
-        <h1 className="w-[40%] text-center mt-4 font-serif">
-          HELLO I AM SHAILESH KALE
-          <span className="text-[#22c3e6]"> WEB DEVELOPER </span> THANK YOU FOR
-          <span className="text-[#22c3e6]"> CONNENTING ME</span>
+        <h1 className="w-[40%] text-center mt-4 font-serif uppercase">
+          Hello, I am Shailesh Kale,
+          <span className="text-[#22c3e6]"> Web Developer </span> Thank you for
+          <span className="text-[#22c3e6]"> connecting with me.</span>
         </h1>
       </div>
       <div className="flex flex-col  md:flex-row flex-wrap  items-center justify-center">
@@ -44,7 +44,7 @@ const Hero = () => {
                 src={github}
                 alt="github"
                 class="icon"
-                className="w-4 md:w-8"
+                className="w-4 md:w-6"
               />
             </a>
             <a
@@ -54,11 +54,11 @@ const Hero = () => {
                 src={linkedin}
                 alt="Linkedin"
                 class="icon"
-                className="w-4 md:w-8"
+                className="w-4 md:w-6"
               />
             </a>
             <a href="https://twitter.com/Shaileshkale123" target="_blank">
-              <img src={twitter} alt="X" class="icon" className="w-4 md:w-8" />
+              <img src={twitter} alt="X" class="icon" className="w-4 md:w-6" />
             </a>
             <a
               href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=shaileshkale87730@gmail.com"
@@ -67,7 +67,7 @@ const Hero = () => {
                 src={mail}
                 alt="mailBox"
                 class="icon"
-                className="w-4 md:w-8"
+                className="w-4 md:w-6"
               />
             </a>
           </div>
