@@ -8,7 +8,7 @@ import Project from "./components/Project/Project";
 
 function App() {
   return (
-    <div className="bg-black h-full w-full  relative ">
+    <div className="bg-black h-full w-full ">
       <Navber />
       <Hero />
       <DO />

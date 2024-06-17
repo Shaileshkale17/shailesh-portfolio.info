@@ -1,6 +1,6 @@
 import React from "react";
 import CardImage from "../CardBox/imgCard";
-// import Jewellery from "https://shaileshkale-portfolio.netlify.app/image/jewellery1452.PNG";
+import Jewellery from "../../assets/jewellery1452.png";
 import pomototime from "../../assets/pomoto-time.webp";
 import githubApi from "../../assets/github-Api.webp";
 import Profile from "../../assets/ShaileshportfolioImage.png";
@@ -13,13 +13,13 @@ const Project = () => {
       </h1>
 
       <div className="flex flex-wrap justify-center items-center px-24  gap-11">
-        {/* <CardImage
+        <CardImage
           title="Jewellery"
           text="JewellerySwift is an innovative online platform offering a curated collection of stylish and timeless jewelry pieces. With a focus on quality craftsmanship and unique designs, it provides a seamless shopping experience for those seeking elegant accessories."
           imgproject={Jewellery}
           TECHNICAL="HTML , CSS , JavaScript"
           projectLink="https://shaileshkale17.github.io/JewellerySwift/"
-        /> */}
+        />
         <CardImage
           title="Pomodoro Timer"
           text="The Pomodoro Timer is a productivity technique involving 25-minute focused work intervals (Pomodoros) followed by short breaks, aiding concentration and time management. It helps enhance productivity and maintain a balance between work and rest."

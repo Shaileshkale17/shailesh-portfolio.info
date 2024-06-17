@@ -11,7 +11,7 @@ const CardJob = ({
 }) => {
   return (
     <div className="relative">
-      <div className="absolute bg-black  -top-7 right-[8.5rem]  rounded-full ">
+      <div className="absolute bg-black  -top-7 right-[9.5rem]  rounded-full ">
         <img
           src={img}
           alt="img"
@@ -20,7 +20,7 @@ const CardJob = ({
         />
       </div>
       <div
-        className=" p-8 rounded flex flex-col gap-4"
+        className=" p-8 h-[23.5rem] rounded flex flex-col gap-4"
         style={{ border: "2px solid #22c3e6" }}>
         <h3 className="text-center text-xl font-bold font-serif text-[#22c3e6]">
           {title}
