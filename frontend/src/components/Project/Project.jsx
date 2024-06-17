@@ -16,7 +16,7 @@ const Project = () => {
         <CardImage
           title="Jewellery"
           text="JewellerySwift is an innovative online platform offering a curated collection of stylish and timeless jewelry pieces. With a focus on quality craftsmanship and unique designs, it provides a seamless shopping experience for those seeking elegant accessories."
-          imgproject={Jewellery}
+          imgproject="https://shaileshkale-portfolio.netlify.app/image/jewellery1452.PNG"
           TECHNICAL="HTML , CSS , JavaScript"
           projectLink="https://shaileshkale17.github.io/JewellerySwift/"
         />
