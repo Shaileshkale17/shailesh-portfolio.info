@@ -12,6 +12,6 @@ app.use(
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.get("/", (req, res) => {
-  res.write("Welcome to server");
+  res.json({ welcom: "Welcome to server" });
 });
 export { app };
