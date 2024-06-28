@@ -1,6 +1,7 @@
 import express from "express";
 import cors from "cors";
 import UserRouter from "./router/User.routes.js";
+import bodyParser from "body-parser";
 const app = express();
 app.use(
   cors({
@@ -8,7 +9,7 @@ app.use(
     credentials: true,
   })
 );
-
+app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.get("/", (req, res) => {

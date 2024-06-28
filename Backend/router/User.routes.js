@@ -10,7 +10,7 @@ import {
 const router = Router();
 
 router.route("/").get(getUsers);
-router.route("/").post(Usercreated);
+router.route("/create").post(Usercreated);
 router.route("/delete/:id").post(userdeleted);
 router.route("/update/:id").post(userUpDate);
 router.route("/userone/:id").post(getUsersone);

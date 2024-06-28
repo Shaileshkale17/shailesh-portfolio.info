@@ -5,7 +5,7 @@ import { asyncHandler } from "../../utils/asycHandler.js";
 export const Usercreated = asyncHandler(async (req, res) => {
   const { name, email, phone, companyName, message } = req.body;
 
-  if ([name, email, phone, message].some((value) => value.trem() === "")) {
+  if ([name, email, phone, message].some((value) => value.trim() === "")) {
     throw new ApiError("404", "Invalid Data");
   }
 
@@ -15,7 +15,7 @@ export const Usercreated = asyncHandler(async (req, res) => {
     throw new ApiError("500", "connot been created");
   }
 
-  res.status(201).json(user, "success");
+  res.status(201).json(user);
 });
 
 export const getUsers = asyncHandler(async (req, res) => {
@@ -23,7 +23,7 @@ export const getUsers = asyncHandler(async (req, res) => {
   if (!user) {
     throw new Error(500, "User not found");
   }
-  res.status(200).json(user, "success");
+  res.status(200).json(user);
 });
 
 export const getUsersone = asyncHandler(async (req, res) => {
@@ -32,7 +32,7 @@ export const getUsersone = asyncHandler(async (req, res) => {
   if (!userone) {
     throw new Error(500, "User not found");
   }
-  res.status(200).json(userone, "success");
+  res.status(200).json(userone);
 });
 
 export const userdeleted = asyncHandler(async (req, res) => {
@@ -68,5 +68,5 @@ export const userUpDate = asyncHandler(async (req, res) => {
     throw new ApiError(500, "User connot been Updeated");
   }
 
-  res.status(200).json(Updeated, "User Updeated successfully");
+  res.status(200).json(Updeated);
 });
