@@ -3,11 +3,11 @@ import React from "react";
 const ContactFrom = () => {
   return (
     <div
-      className=" flex flex-col flex-wrap justify-centern items-center mt-16 gap-2"
+      className=" flex flex-col flex-wrap justify-centern items-center mt-16 gap-8"
       data-aos="fade-up"
       data-aos-duration="3000"
       id="Contact">
-      <form action="" method="post">
+      <form action="" method="post" className="flex flex-col gap-4">
         <div className="flex flex-row gap-7">
           <div className="flex flex-col gap-2 ">
             <label htmlFor="name" className="text-[#22c3e6]">
