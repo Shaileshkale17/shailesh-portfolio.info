@@ -23,7 +23,11 @@ const CardImage = ({
         <div
           className=" p-7 rounded flex flex-col gap-4"
           style={{ border: "2px solid #22c3e6" }}>
-          <img className="w-12 md:w-64 h-40  " src={imgproject} alt={title} />
+          <img
+            className="w-full object-cover h-40  "
+            src={imgproject}
+            alt={title}
+          />
           <h3 className="text-center text-xl font-bold font-serif text-[#22c3e6]">
             {title}
           </h3>
