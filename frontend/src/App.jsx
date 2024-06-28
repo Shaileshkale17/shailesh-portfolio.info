@@ -6,6 +6,7 @@ import EXPERIENCE from "./components/EXPERIENCE/EXPERIENCE";
 import SKILLS from "./components/SKILLS/SKILLS";
 import Project from "./components/Project/Project";
 import Cartification from "./components/Cartification/Cartification";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <SKILLS />
       <Project />
       <Cartification />
+      <Footer />
     </div>
   );
 }
