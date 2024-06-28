@@ -5,6 +5,7 @@ import DO from "./components/Do/DO";
 import EXPERIENCE from "./components/EXPERIENCE/EXPERIENCE";
 import SKILLS from "./components/SKILLS/SKILLS";
 import Project from "./components/Project/Project";
+import Cartification from "./components/Cartification/Cartification";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <EXPERIENCE />
       <SKILLS />
       <Project />
+      <Cartification />
     </div>
   );
 }

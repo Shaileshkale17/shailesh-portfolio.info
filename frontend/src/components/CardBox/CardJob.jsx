@@ -11,7 +11,7 @@ const CardJob = ({
 }) => {
   return (
     <div className="relative">
-      <div className="absolute bg-black  -top-7 right-[9.5rem]  rounded-full ">
+      <div className="absolute bg-black  -top-7 right-[8.5rem]  rounded-full ">
         <img
           src={img}
           alt="img"

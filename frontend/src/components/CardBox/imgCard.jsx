@@ -27,9 +27,9 @@ const CardImage = ({
           <h3 className="text-center text-xl font-bold font-serif text-[#22c3e6]">
             {title}
           </h3>
-          <p className="w-72 h-32 text-justify text-sm font-serif">{text}</p>
+          <p className="w-72 h-auto text-justify text-sm font-serif">{text}</p>
           <hr className="text-[#22c3e6]" />
-          <p className="w-60 h-7 py-3 text-center uppercase text-sm font-serif">
+          <p className="w-72 h-auto  text-start uppercase text-sm font-serif">
             {TECHNICAL}
           </p>
         </div>
