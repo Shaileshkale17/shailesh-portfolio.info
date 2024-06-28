@@ -15,7 +15,6 @@ const Navber = () => {
     { name: "Home", link: "/", img: Home },
     { name: "Skills", link: "#Skills", img: Skills },
     { name: "Project", link: "#Project", img: Project },
-    { name: "Blog", link: "#Blog", img: Blog },
     { name: "Contact", link: "#Contact", img: Contact },
   ];
 

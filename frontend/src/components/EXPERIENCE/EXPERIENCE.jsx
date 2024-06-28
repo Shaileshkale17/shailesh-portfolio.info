@@ -1,13 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react";
 import CardJob from "../CardBox/CardJob";
 import job from "../../assets/job.png";
+import aos from "aos";
+import "aos/dist/aos.css"; // Import AOS CSS
 const EXPERIENCE = () => {
+  useEffect(() => {
+    aos.init({ duration: 1000 }); // Initialize AOS with a more reasonable duration
+  }, []);
   return (
-    <div className="text-white mt-12 bg-black">
-      <h1 className="text-center text-xl font-bold font-serif text-[#22c3e6] uppercase">
+    <div className="text-white mt-12 bg-black" id="EXPERIENCE">
+      <h1
+        className="text-center text-xl font-bold font-serif text-[#22c3e6] uppercase"
+        data-aos="fade-in-top">
         Professional Experience
       </h1>
-      <div className="flex flex-wrap justify-center items-center px-24 mt-12 gap-11">
+      <div
+        className="flex flex-wrap justify-center items-center px-24 mt-12 gap-11"
+        data-aos="zoom-in-down">
         <CardJob
           title="Software Developer"
           Company="Hubnex Lab"

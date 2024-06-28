@@ -7,8 +7,13 @@ import SKILLS from "./components/SKILLS/SKILLS";
 import Project from "./components/Project/Project";
 import Cartification from "./components/Cartification/Cartification";
 import Footer from "./components/Footer/Footer";
-
+import ContactFrom from "./components/ContactForm/ContactFrom";
+import aos from "aos";
+import { useEffect } from "react";
 function App() {
+  useEffect(() => {
+    aos.init({ duration: 3000 });
+  }, []);
   return (
     <div className="bg-black h-full w-full ">
       <Navber />
@@ -18,6 +23,7 @@ function App() {
       <SKILLS />
       <Project />
       <Cartification />
+      <ContactFrom />
       <Footer />
     </div>
   );
